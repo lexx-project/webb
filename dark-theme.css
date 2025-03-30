@@ -1,0 +1,92 @@
+:root {
+    --dark-bg: #121212;
+    --dark-secondary: #1e1e1e;
+    --dark-card: #242424;
+    --purple-accent: #8b5cf6;
+    --purple-hover: #7c3aed;
+    --text-primary: #ffffff;
+    --text-secondary: #e0e0e0;
+}
+
+/* Global text colors */
+h1, h2, h3, h4, h5, h6, p, span, li, a:not(.btn), div {
+    color: var(--text-primary);
+}
+
+.card-body h4, .card-body p {
+    color: var(--text-primary) !important;
+}
+
+.list-unstyled li {
+    color: var(--text-primary);
+}
+
+.transfer-info {
+    color: var(--text-primary);
+}
+
+body {
+    background-color: var(--dark-bg);
+    color: var(--text-primary);
+}
+
+.navbar {
+    background-color: var(--dark-secondary) !important;
+}
+
+.card {
+    background-color: var(--dark-card);
+    border: 1px solid var(--purple-accent);
+}
+
+.btn-primary {
+    background-color: var(--purple-accent);
+    border-color: var(--purple-accent);
+}
+
+.btn-primary:hover {
+    background-color: var(--purple-hover);
+    border-color: var(--purple-hover);
+}
+
+.list-group-item {
+    background-color: var(--dark-card);
+    color: var(--text-primary);
+    border-color: var(--purple-accent);
+}
+
+.accordion-button {
+    background-color: var(--dark-secondary);
+    color: var(--text-primary);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--purple-accent);
+    color: var(--text-primary);
+}
+
+.accordion-body {
+    background-color: var(--dark-card);
+    color: var(--text-primary);
+}
+
+.modal-content {
+    background-color: var(--dark-secondary);
+    color: var(--text-primary);
+}
+
+.text-muted {
+    color: var(--text-secondary) !important;
+}
+
+footer {
+    background-color: var(--dark-secondary) !important;
+}
+
+.nav-link:hover {
+    color: var(--purple-accent) !important;
+}
+
+.navbar-brand:hover {
+    color: var(--purple-accent) !important;
+}
